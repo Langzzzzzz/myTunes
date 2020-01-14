@@ -92,3 +92,6 @@ Author: Zhenqing Lang
                 .endsWith "Hello" "llo" //true
         .toTitleCase    //returns title cased string
                 .toTitleCase "the girl from ipanema" //Girl From Ipanema, The
+              
+### TO DO....
+my teammate and me are working on GUI version
