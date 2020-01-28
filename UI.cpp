@@ -140,7 +140,10 @@ void UI::executeUIREAD(Command cmd){
 	  else {
 		  Command cmd = Command(input);
 
-		  //todo
+		  if(cmd.isUICommand()) executeCommand(cmd);
+		  else if(cmd.isAppCommand()) owner->executeCommand(cmd);
+		  else if(cmd.isDevCommand()) executeDevCommand(cmd);
+		  else printError("UNRECOGNIZED COMMAND");
 	  }
     }
     file.close();
