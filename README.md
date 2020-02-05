@@ -1,5 +1,6 @@
-Author: Zhenqing Lang
-        Payton Pei
+Author: 
+[Zhenqing Lang] https://github.com/Langzzzzzz <br>
+[Payton Pei] https://github.com/peidong110
 
 ### Compile Instruction:
   just type make
